@@ -1,0 +1,412 @@
+html {
+    scroll-snap-align: smooth;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    align-items: centre;
+    justify-content: centre;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+    background: rgba(0, 0, 0, 0.8) url('back.jpg') ;
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+.nav-list {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.nav-list li {
+    list-style: none;
+    padding: 26px 30px;
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-list li a:hover {
+    color: lightgreen;
+}
+
+.logo {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: centre;
+}
+
+.logo img {
+    width: 33%;
+    border: 3px solid white;
+    border-radius: 50px;
+}
+
+.background {
+    background: rgba(0, 0, 0, 0.8) url('pi.png');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+.firstsection {
+    height: 100vh;
+}
+
+.main-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 50%;
+    margin: auto;
+}
+
+.firsthalf {
+    width: 80%;
+    display: flex;
+    justify-content: centre;
+    flex-direction: column;
+}
+
+.secondhalf {
+    width: 30%;
+}
+
+.secondhalf img {
+    width: 70%;
+    border: 5px solid white;
+    border-radius: 150px;
+    display: block;
+    margin: auto;
+}
+
+.text-big {
+    font-size: 50px;
+}
+
+.secondsection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background: rgb(49, 43, 43);
+    background: rgba(0, 0, 0, 0.8) url('DoctorBackground.jpg');
+    background-size: cover;
+    background-blend-mode: soft-light;
+    position: inherit;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+}
+
+.searchBx {
+    background-color: #fff;
+    height: 60px;
+    border-radius: 40px;
+    padding: 10px;
+    margin-bottom: 30px;
+    text-shadow: 0 0 10px #00b3ff, 0 0 10px #00b3ff, 0 0 10px #00b3ff, 0 0 10px #00b3ff, 0 0 10px #00b3ff;
+}
+
+.searchBx:hover>.searchTxt {
+    width: 240px;
+    text-align: center;
+    color: #00b3ff;
+    font-size: 20px;
+    padding: 0 6px;
+}
+
+.searchBtn {
+    color: rgb(255, 255, 255);
+    float: right;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #2f3640;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.searchTxt {
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    color: #000;
+    font-size: 16px;
+    transition: 0.4s;
+    line-height: 40px;
+    width: 0px;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: #56d8f5;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 img {
+    width: 100px;
+    height: 50px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100px;
+    width: 25%;
+    margin: 20px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.05);
+    border-radius: 50px;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    border-left: 1px solid rgba(146, 105, 105, 0.5);
+    border-top: 1px solid rgba(211, 152, 152, 0.5);
+}
+
+.box .subtitle, .data {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.87;
+    letter-spacing: 2px;
+    justify-content: center;
+    align-items: center;
+}
+
+.data {
+    color: #fff;
+}
+
+.death {
+    color: red;
+}
+
+.total {
+    color: lightsalmon;
+}
+
+.recovered {
+    color: rgb(21, 231, 21);
+}
+
+.test {
+    color: rgb(0, 255, 85);
+}
+
+.active {
+    color: rgb(255, 230, 0);
+}
+
+.critical {
+    color: rgb(194, 160, 8);
+}
+
+#flag {
+    display: none;
+}
+
+.thirdsection {
+    height: 130vh;
+    background: rgba(0, 0, 0, 0.8) url('videocall.png');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+.vbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 50%;
+    margin: auto;
+}
+
+.fsthalf {
+    padding: 10%;
+    width: 90%;
+    display: flex;
+    justify-content: centre;
+    flex-direction: column;
+}
+
+.fsthalf img {
+    width: 65%;
+    border: 3px solid black;
+    border-radius: 50px;
+}
+
+.sndhalf {
+    width: 30%;
+}
+
+.sndhalf button {
+    transition-duration: 0.4s;
+    padding: 14px 40px;
+    background-color: white;
+    color: black;
+    border: 2px solid #4CAF50;
+    /* Green */
+}
+
+.sndhalf button:hover {
+    background-color: #4CAF50;
+    /* Green */
+    color: white;
+}
+
+
+
+
+.contactmenu {
+    display: none;
+}
+
+.cntmenu:hover .contactmenu {
+    display: block;
+    margin-top: 10px;
+    position: absolute;
+}
+
+.cntmenu:hover .contactmenu ul {
+    display: block;
+    margin: 5px;
+    padding: 5px;
+    background-color: rgb(68, 67, 67);
+}
+
+
+.fourthsection {
+    height: 100px;
+}
+
+.fourthsection{
+    height: 130vh;
+    width: 100%;
+    background: rgb(0, 0, 0);
+    background:  rgb(77, 76, 76) url('bg.png');
+    background-size: cover;
+    background-blend-mode: soft-light;
+    position: inherit;
+    color: rgb(0, 0, 0);
+}
+#feedback h1{
+    color : white;
+}
+#feedback{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Feedform{
+    height: 80vh;
+    width: 450px;
+    background: rgba(31, 30, 30, 0.4);
+    box-shadow: 0px 0px 8px 0px  rgba(250, 250, 250, 0.7);
+    border-radius: 20px;
+}
+.Feedform form{
+    width: 450px;
+    text-align: center;
+    padding: 25px 20px;
+}
+form h1{
+    padding: 20px 0;
+}
+
+form .id{
+    position: relative;
+
+}
+.id i{
+    position: absolute;
+    font-size: 20px ;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+}
+
+form input{
+    width: 100%;
+    height: 50px;
+    margin: 4px 0;
+    border: 1px solid #5c5c5c;
+    border-radius: 3px;
+    background: rgba(31, 30, 30, 0.4);
+    padding: 0 15px;
+    padding-right: 45px;
+    font-size: 20px;
+    color: #56d8f5;
+}
+
+form textarea{
+    padding: 5px 15px;
+    border: 1px solid #5c5c5c;
+    border-radius: 3px;
+    background: rgba(31, 31, 31, 0.4);
+    font-size: 20px;
+    width: 100%;
+    margin: 4px 0;
+    color: #56d8f5;
+}
+
+form button{
+    margin: 5px;
+    border: 1px solid rgb(104, 104, 104);
+    border-radius: 3px;
+    background: #00b7ff8c;
+    color: #222;
+    padding: 10px 0;
+    width: 100%;
+    font-size: 20px;
+    font-weight: 600;
+}
+form input:focus,
+form textarea:focus{
+    border: 1px solid #56d8f5;
+    transition: all 0.3s ease;
+}
+form input:focus::placeholder,
+form textarea:focus::placeholder{
+    padding-left: 4px;
+    transition: all 0.3s ease;
+}
+form input:focus + i{
+    color: #56d8f5;
+    transition: all 0.3s ease;
+}
+
+

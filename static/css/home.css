@@ -1,0 +1,17 @@
+html {
+    scroll-behavior: smooth;
+    font-family: Helvetica, sans-serif, Arial;
+}
+
+body {
+    margin: 0 auto;
+    background-size: auto;
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    margin: auto;
+    background-color: aqua;
+}
+.img{
+    size: 100vh;
+}

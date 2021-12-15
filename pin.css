@@ -1,0 +1,175 @@
+#bg_img{
+
+    background-image:url('navbar_image.png');
+    background-color: rgb(241, 182, 18);
+    height: 300vh;
+    width: 100%;
+    
+    background-position: center;
+    background-size: cover;
+    filter: blur(2px);
+    margin-top: -42px;
+}
+
+
+
+#bg-text {
+    background-color: rgb(0,0,0); /* Fallback color */
+    opacity: 0.9;
+    color: white;
+    height: 100px;
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+    border: 7px solid #f1f1f1;
+    position: absolute;
+    top: 20%;   /*If you want to bring the box at center then make top: 50% */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding-top: 20px;
+    text-align: center;
+  }
+
+  #sub_text{
+      font-size: 30px;
+  }
+
+  #Sname{
+      
+      text-align: center; 
+  }
+  .search_section{
+      position:absolute;
+      background: rgba(0, 0, 0, 0.8);
+      background-blend-mode: darken;
+     
+      top:40%;
+      
+      margin-right: 5%;
+      margin-left: 1%;
+      width: 96%;
+     
+      height:auto;
+      
+      
+    }
+
+    .state_name_search_bar{
+        height: 40px;
+        margin-left: 25%;
+        width: 50%;
+        border-radius: 4px;
+        display:flex;
+       background-color: white;
+       border: 10px solid rgb(6, 223, 133);
+      border-radius: 22px;
+       
+    }
+    
+    .search-bar__input1{
+        flex-grow: 1;
+        font-size:20px;
+        text-align: center;
+        border: 0;
+        font-size: 33px;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+          
+        border-radius: 10px;
+        
+        /* box shadow : height shadow length shadow */
+    }
+   
+   .state_name_search_bar .material-icons{   /* By doing nesting of classes we can insert search logo inside box 
+                                    /* top=0 material icons would come at top of search bar*/
+                                    /* right=0 pushes search logo to right inside search bar  */ 
+        top:0;
+        right:0;
+        
+        /* background:pink;  Here background of image is white in image so we can change color */
+        border-radius:20%;
+        cursor: pointer; /* Would change into hand when image is brought to image*/ 
+        border: 0; 
+    }
+    .search_section .date_class{
+      background-color:white;
+      width: 80%;
+      margin-left: 10%;
+      text-align: center;
+      height: 40px;
+
+  }
+
+  .search_section .submit_btn{
+    text-align: center;
+    margin-left: 43%;
+    font-size: 30px;
+    border:10px solid black;
+    border-radius: 24px;
+    padding: 8px 8px 8px 8px;
+  }
+
+
+  /* Table design */
+  .tb{
+    border:6px solid rgb(57, 199, 21);
+  }
+  .tb thead tr th {
+    padding:10px 10px 10px 10px;
+    /* border:2px solid rgb(240, 47, 13); */
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    text-align: center;
+    
+    font-weight: bolder;
+    color: rgb(247, 247, 247);
+    border: 3px solid rgb(57, 199, 21);
+border-top: 0px;
+border-bottom: 0px;
+    
+    }
+
+ 
+td{
+    font-size: 19px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 36px; /*  row height */
+   text-align: center;
+   color: rgb(255, 251, 251);
+   font-style: normal;
+   padding:3px 3px 3px 3px ;
+ 
+ 
+}
+
+.state_name{
+
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(247, 247, 247);
+    
+}
+.district_name{
+    font-size: 40px;
+    color: rgb(247, 247, 247);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.input_title{
+    font-size: 40px;
+    color: rgb(223, 6, 158);
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.cowin{
+    font-size: 20px;
+    color: rgb(247, 247, 247);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+#footer{
+    text-align: center;
+}
