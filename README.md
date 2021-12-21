@@ -27,7 +27,7 @@ The project is created using
 4. PHP
 5. Covid-19 cases tracker API
 6. Vaccination API
-7. 000webhost for vidiocall
+7. 000webhost for videocall
 8. git & github for hosting
 ## 📝 Modules (features)
 1. 🏚️ Home
