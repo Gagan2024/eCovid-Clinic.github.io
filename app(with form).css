@@ -317,7 +317,7 @@ h1 img {
     height: 130vh;
     width: 100%;
     background: rgb(0, 0, 0);
-    background:  rgb(77, 76, 76) url('bg.png');
+    background:  rgb(77, 76, 76) url('feedbg.png');
     background-size: cover;
     background-blend-mode: soft-light;
     position: inherit;
